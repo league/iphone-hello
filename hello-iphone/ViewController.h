@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property IBOutlet UILabel* helloLabel;
+-(IBAction)click:(id)sender;
 @end
